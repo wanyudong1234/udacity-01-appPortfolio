@@ -5,7 +5,77 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="My Nanodegree Apps!"
+            android:textColor="#2E3D49"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/appOne"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="POPULAR MOVIES"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:onClick="showToastPopularMovie"/>
+
+        <Button
+            android:id="@+id/appTwo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="STOCK HAWK"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/appThree"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="BUILD IT BIGGER"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/appFour"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="MAKE YOUR APP MATERIAL"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/appFive"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="GO UBIQUITOUS"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/appSix"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CAPSTONE"
+            android:background="#2E3D49"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>
